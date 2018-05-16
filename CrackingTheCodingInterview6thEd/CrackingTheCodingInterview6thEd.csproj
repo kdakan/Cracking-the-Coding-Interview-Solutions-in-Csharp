@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F4FF91CF-C09E-4C44-A747-045BBB4A8819}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CrackingTheCodingInterview6thEd</RootNamespace>
+    <AssemblyName>CrackingTheCodingInterview6thEd</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ch10_SortingAndSearching\P10_1_SortedMerge.cs" />
+    <Compile Include="Ch16_Moderate\P16_13_BisectSquares.cs" />
+    <Compile Include="Ch16_Moderate\P16_11_DivingBoard.cs" />
+    <Compile Include="Ch16_Moderate\P16_10_PeopleAlive.cs" />
+    <Compile Include="Ch16_Moderate\P16_17_ContiguousSequence.cs" />
+    <Compile Include="Ch16_Moderate\P16_16_SubSort.cs" />
+    <Compile Include="Ch16_Moderate\P16_9_Operations.cs" />
+    <Compile Include="Ch16_Moderate\P16_8_EnglishInt.cs" />
+    <Compile Include="Ch16_Moderate\P16_6_SmallestDifference.cs" />
+    <Compile Include="Ch16_Moderate\P16_4_TicTacWin.cs" />
+    <Compile Include="Ch16_Moderate\P16_3_Intersection.cs" />
+    <Compile Include="Ch16_Moderate\P16_2_WordFrequencies.cs" />
+    <Compile Include="Ch01_ArraysAndStrings\P1_8_ZeroMatrix.cs" />
+    <Compile Include="Ch01_ArraysAndStrings\P1_9_StringRotation.cs" />
+    <Compile Include="Ch01_ArraysAndStrings\P1_2_CheckPermutation.cs" />
+    <Compile Include="Ch01_ArraysAndStrings\P1_3_URLify.cs" />
+    <Compile Include="Ch01_ArraysAndStrings\P1_1_IsUnique.cs" />
+    <Compile Include="Ch01_ArraysAndStrings\P1_4_PalindromePermutation.cs" />
+    <Compile Include="Ch01_ArraysAndStrings\P1_5_OneAway.cs" />
+    <Compile Include="Ch01_ArraysAndStrings\P1_6_StringCompression.cs" />
+    <Compile Include="Ch01_ArraysAndStrings\P1_7_RotateMatrix.cs" />
+    <Compile Include="Ch02_LinkedLists\P2_8_LoopDetection.cs" />
+    <Compile Include="Ch02_LinkedLists\P2_7_Intersection.cs" />
+    <Compile Include="Ch02_LinkedLists\P2_6_Palindrome.cs" />
+    <Compile Include="Ch02_LinkedLists\P2_5_SumLists.cs" />
+    <Compile Include="Ch02_LinkedLists\P2_4_Partition.cs" />
+    <Compile Include="Ch02_LinkedLists\P2_3_DeleteMiddleNode.cs" />
+    <Compile Include="Ch02_LinkedLists\P2_2_ReturnKthToLast.cs" />
+    <Compile Include="Ch02_LinkedLists\P2_1_RemoveDups.cs" />
+    <Compile Include="Ch16_Moderate\P16_1_NumberSwapper.cs" />
+    <Compile Include="Ch04_TreesAndGraphs\P4_12_PathsWithSum.cs" />
+    <Compile Include="Ch04_TreesAndGraphs\P4_11_RandomNode.cs" />
+    <Compile Include="Ch04_TreesAndGraphs\P4_10_CheckSubtree.cs" />
+    <Compile Include="Ch04_TreesAndGraphs\P4_8_CommonAncestor.cs" />
+    <Compile Include="Ch04_TreesAndGraphs\P4_7_BuildOrder.cs" />
+    <Compile Include="Ch04_TreesAndGraphs\P4_6_Successor.cs" />
+    <Compile Include="Ch04_TreesAndGraphs\P4_5_ValidateBST.cs" />
+    <Compile Include="Ch04_TreesAndGraphs\P4_4_CheckBalance.cs" />
+    <Compile Include="Ch04_TreesAndGraphs\P4_3_ListOfDepths.cs" />
+    <Compile Include="Ch04_TreesAndGraphs\P4_2_MinimalTree.cs" />
+    <Compile Include="Ch04_TreesAndGraphs\P4_1_RouteBetweenNodes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ch03_StacksAndQueues\P3_5_SortStack.cs" />
+    <Compile Include="Ch03_StacksAndQueues\P3_6_AnimalShelter.cs" />
+    <Compile Include="Ch03_StacksAndQueues\P3_4_QueueWithStacks.cs" />
+    <Compile Include="Ch03_StacksAndQueues\P3_2_StackMin.cs" />
+    <Compile Include="Ch03_StacksAndQueues\P3_1_ThreeInOne.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
